@@ -110,6 +110,11 @@ header p{
     padding:0 0 0.7rem  1rem ;
 }
 
+li::marker {
+    color:var(--brown-800);
+   font-weight: bolder;
+}
+
 
 .divider{
     border: 0;
@@ -118,10 +123,23 @@ header p{
     margin: 0.3rem 0 1.5rem;
 }
 
+.nutrition p{
+    margin: 1.5rem 0;
+}
 
+.list-items p{
+    display: inline-block;
+    margin-left: 3rem;
+}
 
+.level{
+    color: var(--brown-800);
+    font-weight: bolder;
+}
 
-
+.content{
+    width: 40%;
+}
 
 
 
