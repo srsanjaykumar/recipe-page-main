@@ -54,6 +54,7 @@ span {
   /* height: 350px; */
     height: 20rem;
   background-size: cover;
+  background-position: center;
   border-radius: 0.7rem;
 }
 h1,
@@ -141,7 +142,56 @@ li::marker {
     width: 40%;
 }
 
+@media (max-width: 930px) {
+    .container {
+        max-width: 675px;
+        padding: 0;
+      }
+      .image {
+        width: 100%;
+        max-height: 260px;
+      }
+      h1 {
+        font-size: 2rem;
+      }
+      .main
+      {
+        padding: 1.5rem;
+      }
+  }
 
+@media (max-width: 768px) {
+    .container {
+        max-width: 600px;
+        padding: 0;
+      }
+      .image {
+        width: 100%;
+        max-height: 220px;
+      }
+      h1 {
+        font-size: 2rem;
+      }
+      .main
+      {
+        padding: 1.5rem;
+      }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+        max-width: 450px;
+        padding: 0;
+      }
+      .image {
+        width: 100%;
+        max-height: 190px;
+      }
+      .main
+      {
+        padding: 1.5rem;
+      }
+  }
 
 
 
